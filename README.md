@@ -18,6 +18,10 @@
   
 <div align="center"><img src="./public/images/cover.png"></div>
 
+## MUDANÇAS FEITAS DURANTE O INCIDENTE DE 4-7 DE OUTUBRO DE 2025
+Criamos uma [imagem docker](https://hub.docker.com/r/ckk3mota/evolution-api) com o patch que foi adicionado na versão 7.0.0-rc-5
+
+
 ## Evolution API
 
 Evolution API began as a WhatsApp controller API based on [CodeChat](https://github.com/code-chat-br/whatsapp-api), which in turn implemented the [Baileys](https://github.com/WhiskeySockets/Baileys) library. While originally focused on WhatsApp, Evolution API has grown into a comprehensive platform supporting multiple messaging services and integrations. We continue to acknowledge CodeChat for laying the groundwork.
