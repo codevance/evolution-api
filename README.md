@@ -19,7 +19,7 @@
 <div align="center"><img src="./public/images/cover.png"></div>
 
 ## MUDANÇAS FEITAS DURANTE O INCIDENTE DE 4-7 DE OUTUBRO DE 2025
-Criamos uma [imagem docker](https://hub.docker.com/r/ckk3mota/evolution-api) com o patch que foi adicionado na versão 7.0.0-rc-5
+Criamos uma [imagem docker](https://hub.docker.com/r/ckk3mota/evolution-api) com o patch que foi adicionado na versão 7.0.0-rc-5 do baileys
 
 
 ## Evolution API
