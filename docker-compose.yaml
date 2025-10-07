@@ -3,7 +3,7 @@ version: "3.8"
 services:
   api:
     container_name: evolution_api
-    image: ckk3mota/evolution-api:hotfix-rc5
+    image: ckk3mota/evolution-api:2.3.4-hotfix-rc5
     restart: always
     depends_on:
       - redis
