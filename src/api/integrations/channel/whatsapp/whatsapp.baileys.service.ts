@@ -567,18 +567,17 @@ export class BaileysStartupService extends ChannelStartupService {
       this.logger.info(`Browser: ${browser}`);
     }
 
-    const baileysVersion = await fetchLatestWaWebVersion({});
-    const version = baileysVersion.version;
-    const log = `Baileys version: ${version.join('.')}`;
+    let version;
+    let log;
 
-    // if (session.VERSION) {
-    //   version = session.VERSION.split('.');
-    //   log = `Baileys version env: ${version}`;
-    // } else {
-    //   const baileysVersion = await fetchLatestWaWebVersion({});
-    //   version = baileysVersion.version;
-    //   log = `Baileys version: ${version}`;
-    // }
+    if (session.VERSION) {
+      version = session.VERSION.split('.');
+      log = `Baileys version env: ${version}`;
+    } else {
+      const baileysVersion = await fetchLatestWaWebVersion({});
+      version = baileysVersion.version;
+      log = `Baileys version: ${version}`;
+    }
 
     this.logger.info(log);
 
